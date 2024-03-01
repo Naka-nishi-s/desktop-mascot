@@ -1,0 +1,23 @@
+{
+  "name": "desktop-mascot",
+  "version": "1.0.0",
+  "description": "デスクトップのマスコットを作る",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naka-nishi-s/desktop-mascot.git"
+  },
+  "author": "Nakanishi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naka-nishi-s/desktop-mascot/issues"
+  },
+  "homepage": "https://github.com/Naka-nishi-s/desktop-mascot#readme",
+  "devDependencies": {
+    "electron": "^29.1.0"
+  }
+}

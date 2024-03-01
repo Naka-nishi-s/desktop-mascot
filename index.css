@@ -1,0 +1,61 @@
+.animation {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  animation-name: diagonal-move-anim;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes rotation {
+  0% {
+    transform: scale(.3);
+  }
+
+  50% {
+    margin-left: 50vw;
+    transform: scale(.6) rotate(-45deg);
+    background: red;
+  }
+
+  100% {
+    margin-left: 100vw;
+    transform: scale(1) rotate(180deg);
+    background: blue;
+  }
+}
+
+@keyframes diagonal-move-anim {
+
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(90vw, 0);
+  }
+
+  50% {
+    transform: translate(90vw, 80vh);
+  }
+
+  75% {
+    transform: translate(0, 80vh);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
